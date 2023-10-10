@@ -30,7 +30,8 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
-
+#ifndef PY_SSIZE_T_CLEAN
+#define PY_SSIZE_T_CLEAN
 #pragma once
 
 uint32_t crc32c(uint32_t crc, const void *buf, size_t len);

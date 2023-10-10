@@ -54,7 +54,8 @@
    1.0  10 Feb 2013  First version
    1.1   1 Aug 2013  Correct comments on why three crc instructions in parallel
  */
-
+#ifndef PY_SSIZE_T_CLEAN
+#define PY_SSIZE_T_CLEAN
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
